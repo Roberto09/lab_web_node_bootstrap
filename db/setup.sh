@@ -1,0 +1,1 @@
+sudo docker run --detach --name=lab_web_sql --env="MYSQL_ROOT_PASSWORD=pass" --publish 6603:3306 --volume=my_sql_vol_lab_web:/etc/mysql/ mysql/mysql-server:latest
